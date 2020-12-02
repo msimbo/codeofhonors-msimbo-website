@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+}
+
+.image1 {
+    justify-content: left;
+}
+
+.menu {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    color: #3c4043;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-top: 2rem;
+
+}
+
+.image2 {
+    justify-content: right;
+}
+
+/*.nav a {*/
+/*    text-decoration: none;*/
+/*    font-size: 16px;*/
+/*    font-family: Roboto Slab, sans-serif;*/
+/*    font-style: normal;*/
+/*    color: black;*/
+/*    align-content: center;*/
+/*    line-height: 50px;*/
+/*}*/
+
+/* .nav2 {
+    background: white;
+    display: flex;
+    justify-content: right;
+   
+}
+
+.nav2 a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Roboto Slab;
+    font-weight: 500;
+    color: black; */
+
+/* .nav img:nth-child(2) {
+    width: 2px;
+    height: 8px  
+} */
+
+/* applies to all images */
+/* nav > img {
+    width: 50;
+    height: 100;
+} */
+
+/*Ahmed CSS*/
+/* For the big background-image:*/
+.main1 {
+    height: 100vh;
+    /*read more */
+    background: url("img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg")
+    no-repeat center center/cover;
+}
+
+/* For msimbo logo*/
+.main2 {
+    display: flex;
+    justify-content: center;
+    /*min-height: calc(100vh - 70px);*/
+    background: no-repeat center;
+    margin-top: 200px;
+}
+
+/* For msimbo logo */
+.msimbo_logo {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    /*position: absolute;*/
+    top: 60px;
+    left: 10px;
+    border: 1px;
+    width: 150px;
+}
+
+/* Rules for text at the center */
+.text1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem;
+    color: white;
+    font-size: 2rem;
+}
+/*End of Ahmed CSS*/
