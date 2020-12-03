@@ -66,6 +66,7 @@ nav {
 /*Ahmed CSS*/
 /* For the big background-image:*/
 .main1 {
+    padding: 1px;
     height: 100vh;
     /*read more */
     background: url("img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg")
@@ -79,6 +80,7 @@ nav {
     /*min-height: calc(100vh - 70px);*/
     background: no-repeat center;
     margin-top: 200px;
+    box-shadow: inset;
 }
 
 /* For msimbo logo */
@@ -91,6 +93,8 @@ nav {
     left: 10px;
     border: 1px;
     width: 150px;
+    text-shadow: red 10px 10px 10px;
+
 }
 
 /* Rules for text at the center */
@@ -101,5 +105,23 @@ nav {
     margin-top: 2rem;
     color: white;
     font-size: 2rem;
+    text-shadow: lightskyblue 10px 10px 10px;
 }
 /*End of Ahmed CSS*/
+
+/* <!-- Lashwanta Section start -->
+
+
+<!-- Lashawnta Section ended -->
+
+
+<!-- Johane Section start -->
+
+
+<!-- Johane Section ended -->
+
+
+<!-- Xavier Section start -->
+
+
+<!-- Xavier Section ended --> */
