@@ -60,10 +60,25 @@ https://github.com/YOUR_GITHUB_ID/Project-3-v2
 
 8. Create Pull Request
 
+# Sprint 3 MSIMBO Redesign v2
 
+1. Created New Repo for **Sprint 3** called **Project-3-v2** https://github.com/SauelAlmonte/Project-3-v2
 
-## Sprint 3 MSIMBO Redesign v2
-    * Created New Repo Project-3-v2
-    * Cloned Repo Project-3-v2 to my desktop
-    * Code of Honors forked New Repo & Cloned New Repo
-    * Code of Honors sent Pull Request (PR)
+   
+2. Everyone cloned Repo Project-3-v2 to their desktop/directory
+   those who use *PC* utilized **commander**, those using *Mac* utilized **iTerm2**
+   
+   
+3. Code of Honors team sent Pull Request (PR) to **Main Repo**.
+   
+   ### Purpose of Pull Request (PR) ?
+   * A **Pull Request(s)** let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+   
+### Code of Honors MSIMBO Website
+
+1. New Repo created by Instructor for **efficiency** https://github.com/msimbo/codeofhonors-msimbo-website
+
+2. Team lead for that **Sprint** cloned **New Repo** to their desktop/directory
+
+3. Waiting on further instrcutions from Instructor to further the process of **New Repo**
+
