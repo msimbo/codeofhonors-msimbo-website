@@ -109,19 +109,37 @@ nav {
 }
 /*End of Ahmed CSS*/
 
-/* <!-- Lashwanta Section start -->
+ /* six-icons Section start */
+#six-icons {
+    display: flex;
+    justify-content: space-around;
+    /*background-color: aqua;*/
+    height: 150px;
+    padding: 10px;
+}
+
+#six-icons p {
+    font-size: 18px;
+}
+
+.six-icons_class {
+    background: green;
+    border: 1px solid red;
+    width: 500px;
+    justify-content: space-around;
+    display: flex;
+}
+
+ /* six-icons Section ended */
 
 
-<!-- Lashawnta Section ended -->
+ /*Johane Section start */
 
 
-<!-- Johane Section start -->
+ /*Johane Section ended */
 
 
-<!-- Johane Section ended -->
+ /*Xavier Section start */
 
 
-<!-- Xavier Section start -->
-
-
-<!-- Xavier Section ended --> */
+ /*Xavier Section ended*/
