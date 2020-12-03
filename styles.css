@@ -211,6 +211,8 @@ hr {
     text-align: center;
     color: white ;
     background-image: linear-gradient(black, red);
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
