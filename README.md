@@ -74,7 +74,7 @@ https://github.com/YOUR_GITHUB_ID/Project-3-v2
    ### Purpose of Pull Request (PR) ?
    * A **Pull Request(s)** let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
    
-# Code of Honors MSIMBO Website
+## Code of Honors MSIMBO Website
 
 1. New Repo created by Instructor for **efficiency** https://github.com/msimbo/codeofhonors-msimbo-website
 
