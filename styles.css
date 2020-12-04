@@ -110,26 +110,25 @@ nav {
 /*End of Ahmed CSS*/
 
 /* six-icons Section start */
-#six-icons {
-    display: flex;
-    justify-content: space-around;
-    /*background-color: aqua;*/
-    height: 150px;
-    padding: 10px;
-}
+/*#six-icons {*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    !*background-color: aqua;*!*/
+/*    height: 150px;*/
+/*    padding: 10px;*/
+/*}*/
 
-#six-icons p {
-    font-size: 18px;
-}
+/*#six-icons p {*/
+/*    font-size: 18px;*/
+/*}*/
 
-.six-icons_class {
-    background: green;
-    border: 1px solid red;
-    width: 500px;
-    justify-content: space-around;
-    display: flex;
-}
-
+/*.six-icons_class {*/
+/*    background: green;*/
+/*    border: 1px solid red;*/
+/*    width: 500px;*/
+/*    justify-content: space-around;*/
+/*    display: flex;*/
+/*}*/
 /* six-icons Section ended */
 
 
