@@ -1,107 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css" integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w==" crossorigin="anonymous" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;700;800;900&family=Roboto+Slab:wght@100;800&display=swap" rel="stylesheet">
-        <title>MSIMBO Redesign Header</title>
-    </head>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="contact.css">
+		<link rel="stylesheet" type="text/css" href="bio.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css" integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w==" crossorigin="anonymous" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;700;800;900&family=Roboto+Slab:wght@100;800&display=swap" rel="stylesheet">
+		<title>MSIMBO Redesign Header</title>
+	</head>
 
-    <body>
+	<body>
 
 <!--    Sauel Section-->
-        <nav>
-
-            <div class="image1">
-                <img src="img/cropped-constant-contact-title-bar-013114.jpg" height="100" width="350" alt>
-            </div>
-                    <ul class="menu">
-
-                        <p>
-                        <a href="#home">Home</a>
-                        </p>
-
-                        <p>
-                        <a href="#students">Students</a>
-                        </p>
-
-                        <p>
-                         <a href="#curriculum">Curriculum</a>
-                        </p>
-
-                        <p>
-                        <a href="#assignments">Assignments</a>
-                        </p>
-
-                        <p>
-                        <a href="#resources">Resources</a>
-                        </p>
-
-                        <p>
-                        <a href="#videos">Videos</a>
-                        </p>
-
-                        <p>
-                        <a href="#slack">Slack</a>
-                        </p>
-
-                        <p>
-                        <a href="#contact us">Contact Us</a>
-                        </p>
-
-                        <p>
-                        <a href="#store">Store</a>
-                        </p>
-
-                        <p>
-                        <a href="#login">Login</a>
-                        </p>
-
-                        <p>
-                        <a href="#register">Register</a>
-                        </p>
-
-                    </ul>
-
-            <div class="image2">
-                <img src="img/SaveTheChildren100.jpg" height="100" width="275" alt>
-            </div>
-
-        </nav>
+<header>
+	<a class="logo" href="/"><img src="img/ulembanner.png" height="500px" width="500px" alt="logo"></a>
+	<nav>
+		<ul class="nav__links">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Students</a></li>
+			<li><a href="#">Curriculum</a></li>
+			<li><a href="#">Assignments</a></li>
+			<li><a href="#">Resources</a></li>
+			<li><a href="#">Video</a></li>
+			<li><a href="#">Slack</a></li>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="#">Store</a></li>
+			<li><a href="#">Login</a></li>
+			<li><a href="#">Register</a></li>
+		</ul>
+	</nav>
+	<a class="cta" href="#">Menu</a>
+	<p class="menu cta">Menu</p>
+</header>
+<div class="overlay">
+	<a class="close">&times;</a>
+	<div class="overlay__content">
+		<a href="contact.html">MSIMBO Team</a>
+		<a href="bio.html">Management Team</a>
+	</div>
+</div>
+<script type="text/javascript" src="app.js"></script>
 <!--end of Sauel Section-->
 
 <!--        Ahmed section-->
-        <div class="main1">
-            <div class="main2">
-                <img class="msimbo_logo" src="img/logo.7d59b40d.png"
-                     alt="msimbo logo"/>
-            </div>
-            <!--  End of main2 -->
+		<div class="main1">
+			<div class="main2">
+				<img class="msimbo_logo" src="img/logo.7d59b40d.png"
+					 alt="msimbo logo"/>
+			</div>
+			<!--  End of main2 -->
 
-            <div>
-                <div class="text1">MSIMBO</div>
-                <div class="text1">Programming</div>
-                <div class="text1">Welcome to ULEM</div>
-                <div class="text1">Coding Bootcamp</div>
-            </div>
+			<div>
+				<div class="text1">MSIMBO</div>
+				<div class="text1">Programming</div>
+				<div class="text1">Welcome to ULEM</div>
+				<div class="text1">Coding Bootcamp</div>
+			</div>
 
-            <div class="mt-20 flex justify-self-center">
-                <button class="bg-blue-500 p-5 border-2 rounded-full cursor-pointer">
-                    <a href="contact.html">Contact Us</a>
-                </button>
-            </div>
+			<div class="mt-20 flex justify-self-center">
+				<button class="bg-blue-500 p-5 border-2 rounded-full cursor-pointer">
+					<a href="contact.html">Contact Us</a>
+				</button>
+			</div>
 
-        </div>
-        <!-- End of main1 -->
+		</div>
+		<!-- End of main1 -->
 
 <!-- Six Icons Section start -->
 <!--    <div id="header">-->
 <!--    <div id="six-icons" class="bg-blue-500">-->
-
+<!--&lt;!&ndash;&ndash;&gt;-->
 <!--        <div class="six-icons_class">-->
 <!--            <a class="six-icons_class" href="#">-->
 <!--                <img class="h-10" src="img/students_logo.png" alt="students logo">-->
@@ -142,33 +114,33 @@
 
 
 <!-- Xavier Section ended -->
-        <div class="X-container">
+		<div class="X-container">
 
-            <div id="background">
-                <div>
-                    <p>"Im very happy I had the chance to successfully complete the MSIMBO coding program which is opening many carrer opportunities for me and will always be grateful to the Urban League."</p>
-                    <img src="img\avatar1.JPG" alt="pascal" height="250px" width="400px">
-                </div>
-                
-                <div>
-                    <p>"I am happy to say that MSIMBO has opened the front door for me into the software development world."</p>
-                    <img src="img/avatar3.JPG" alt="Hieu" height="250px" width="400px">
-                </div>
-                
-                <div>
-                    <p>
-                        "Im very happy I had the chance to successfully complete the MSIMBO coding program which is opening many carrer opportunities for me and will always be grateful to the Urban League."</p>
-                        <img src="img/avatar2.JPG" alt="Awet" height="400px" width="400px" >
-                </div>
-            </div>
+			<div id="background">
+				<div>
+					<p>"Im very happy I had the chance to successfully complete the MSIMBO coding program which is opening many carrer opportunities for me and will always be grateful to the Urban League."</p>
+					<img src="img\avatar1.JPG" alt="pascal" height="250px" width="400px">
+				</div>
 
+				<div>
+					<p>"I am happy to say that MSIMBO has opened the front door for me into the software development world."</p>
+					<img src="img/avatar3.JPG" alt="Hieu" height="250px" width="400px">
+				</div>
 
+				<div>
+					<p>
+						"Im very happy I had the chance to successfully complete the MSIMBO coding program which is opening many carrer opportunities for me and will always be grateful to the Urban League."</p>
+						<img src="img/avatar2.JPG" alt="Awet" height="400px" width="400px" >
+				</div>
+			</div>
 
 
-            <hr />
-            <div class="footer">
-                <h4> Urban League of Eastern Massachusettes circa 2020</h4>
-            </div>
-        </div>
-    </body>
+
+
+			<hr />
+			<div class="footer">
+				<h4> Urban League of Eastern Massachusetts circa 2020</h4>
+			</div>
+		</div>
+	</body>
 </html>
