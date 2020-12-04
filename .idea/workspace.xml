@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed963241-3224-45e7-9de7-a0f70ba4bd30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/msimbo-digital.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ulem_logo_circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ulem_quote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ulem_t.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeofhonors-msimbo-website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeofhonors-msimbo-website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bio.css" beforeDir="false" afterPath="$PROJECT_DIR$/bio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/bio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="ed963241-3224-45e7-9de7-a0f70ba4bd30" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +56,7 @@
       <workItem from="1606978565471" duration="3942000" />
       <workItem from="1607029440723" duration="1514000" />
       <workItem from="1607046771543" duration="87000" />
-      <workItem from="1607046876469" duration="23474000" />
+      <workItem from="1607046876469" duration="23549000" />
     </task>
     <servers />
   </component>
