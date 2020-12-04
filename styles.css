@@ -42,7 +42,7 @@ nav {
     background: white;
     display: flex;
     justify-content: right;
-   
+
 }
 
 .nav2 a {
@@ -54,7 +54,7 @@ nav {
 
 /* .nav img:nth-child(2) {
     width: 2px;
-    height: 8px  
+    height: 8px
 } */
 
 /* applies to all images */
@@ -109,7 +109,7 @@ nav {
 }
 /*End of Ahmed CSS*/
 
- /* six-icons Section start */
+/* six-icons Section start */
 #six-icons {
     display: flex;
     justify-content: space-around;
@@ -130,16 +130,109 @@ nav {
     display: flex;
 }
 
- /* six-icons Section ended */
+/* six-icons Section ended */
 
 
- /*Johane Section start */
+/*Johane Section start */
 
 
- /*Johane Section ended */
+/*Johane Section ended */
 
 
- /*Xavier Section start */
+/*Xavier Section start */
+.X-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    bottom: 0;
 
 
- /*Xavier Section ended*/
+
+}
+
+#background {
+    display: flex;
+    justify-content: space-around;
+    background: url("img/triple-img-whole.png") no-repeat center center/cover;
+    padding: 50px;
+    padding-top: 180px;
+
+
+}
+
+#background div:nth-child(1) {
+    /* width: 150px; */
+    width: 25%;
+    height: 400px;
+    background: white;
+    text-align: center;
+    border-radius: 15px 0 0 15px;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 2px;
+
+
+}
+
+#background div:nth-child(2) {
+    /* width: 150px; */
+    width: 25%;
+    height: 400px;
+    background: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 2px;
+}
+
+
+#background div:nth-child(3) {
+    /* width: 150px; */
+    width: 25%;
+    height: 400px;
+    background: white;
+    text-align: center;
+    border-radius: 0 15px 15px 0;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 2px
+}
+
+p {
+    font-family:  'Roboto Slab', serif;
+    border: black;
+    border-bottom: 1px;
+}
+
+
+
+
+hr {
+
+    height: 10px;
+    width: 1250px;
+    border: none;
+    background-image: linear-gradient(red,white);
+
+
+}
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    bottom: 0;
+    text-align: center;
+    color: white ;
+    background-image: linear-gradient(black, red);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+/*Xavier Section ended  */
