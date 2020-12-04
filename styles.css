@@ -66,8 +66,8 @@ nav {
 /*Ahmed CSS*/
 /* For the big background-image:*/
 .main1 {
-    padding: 1px;
-    height: 100vh;
+    padding: 10px;
+    height: 150vh;
     /*read more */
     background: url("img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg")
     no-repeat center center/cover;
