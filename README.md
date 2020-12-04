@@ -72,7 +72,9 @@ https://github.com/YOUR_GITHUB_ID/Project-3-v2
 3. Code of Honors team sent Pull Request (PR) to **Main Repo**.
    
    ### Purpose of Pull Request (PR) ?
-   * A **Pull Request(s)** let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+   * A **Pull Request(s)** lets the collaborators communicate with others about changes collaborators pushed to a branch in a repository on GitHub. 
+     Once a pull request is opened, collaborators can discuss and review the potential changes with collaborators and add follow-up commits before collaborators 
+     changes are merged into the base branch.
    
 ## New Repo Created by Instructor 
 
@@ -80,6 +82,20 @@ https://github.com/YOUR_GITHUB_ID/Project-3-v2
 
 1. New Repo created by Instructor for **efficiency** https://github.com/msimbo/codeofhonors-msimbo-website
 
-2. Team lead for that **Sprint** cloned **New Repo** to their desktop/directory
+2. Team lead for current **Sprint** cloned **New Repo** to their desktop/directory
 
-3. Waiting on further instrcutions from Instructor to further the process of **New Repo**
+3. Code of Honors team collaborators cloned repo to their directory
+
+4. Code of Honors team collaborators restarted their previous work
+
+## Header/Nav/Menu & Bio Page
+### Sauel Almonte
+
+## Image Section Underneath Header & Team Contact Page
+### Ayad Ahmed
+
+## About Us Section
+### Johane Chery
+
+## Footer/
+### Xavier Parham

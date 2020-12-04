@@ -1,32 +1,132 @@
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
-nav {
+header {
     display: flex;
     justify-content: space-between;
-    margin: 0;
-    position: relative;
+    align-items: center;
+    padding: 0 15px;
+    background-color: whitesmoke;
 }
 
-.image1 {
-    justify-content: left;
+.logo {
+    cursor: pointer;
 }
+
+.nav__links a,
+.cta,
+.overlay__content a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: Black;
+    text-decoration: none;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links li {
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: red;
+}
+
+.cta {
+    padding: 15px 10px;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+    background-color: lightgray;
+}
+
+/* Mobile Nav */
 
 .menu {
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: lightgray;
+    overflow-x: hidden;
+    transition: width 0.5s ease 0s;
+}
+
+.overlay--active {
+    width: 100%;
+}
+
+.overlay__content {
     display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-    color: #3c4043;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    margin-top: 2rem;
-
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.image2 {
-    justify-content: right;
+.overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: color 0.3s ease 0s;
 }
+
+.overlay a:hover,
+.overlay a:focus {
+    color: red;
+}
+.overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .nav__links,
+    .cta {
+        display: none;
+    }
+    .menu {
+        display: initial;
+    }
+}
+
+
+/*sauel section end*/
 
 /*.nav a {*/
 /*    text-decoration: none;*/
@@ -42,7 +142,7 @@ nav {
     background: white;
     display: flex;
     justify-content: right;
-   
+
 }
 
 .nav2 a {
@@ -54,7 +154,7 @@ nav {
 
 /* .nav img:nth-child(2) {
     width: 2px;
-    height: 8px  
+    height: 8px
 } */
 
 /* applies to all images */
@@ -66,8 +166,8 @@ nav {
 /*Ahmed CSS*/
 /* For the big background-image:*/
 .main1 {
-    padding: 1px;
-    height: 100vh;
+    padding: 10px;
+    height: 150vh;
     /*read more */
     background: url("img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg")
     no-repeat center center/cover;
@@ -109,6 +209,7 @@ nav {
 }
 /*End of Ahmed CSS*/
 
+<<<<<<< HEAD
  /* Lashwanta Section start  */
 
 
@@ -162,3 +263,131 @@ overflow: hidden;
 
 
  /* Xavier Section ended  */
+=======
+/* six-icons Section start */
+/*#six-icons {*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    !*background-color: aqua;*!*/
+/*    height: 150px;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*#six-icons p {*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.six-icons_class {*/
+/*    background: green;*/
+/*    border: 1px solid red;*/
+/*    width: 500px;*/
+/*    justify-content: space-around;*/
+/*    display: flex;*/
+/*}*/
+/* six-icons Section ended */
+
+
+/*Johane Section start */
+
+
+/*Johane Section ended */
+
+
+/*Xavier Section start */
+.X-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    bottom: 0;
+
+
+
+}
+
+#background {
+    display: flex;
+    justify-content: space-around;
+    background: url("img/triple-img-whole.png") no-repeat center center/cover;
+    padding: 50px;
+    padding-top: 180px;
+
+
+}
+
+#background div:nth-child(1) {
+    /* width: 150px; */
+    width: 25%;
+    height: 400px;
+    background: white;
+    text-align: center;
+    border-radius: 15px 0 0 15px;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 2px;
+
+
+}
+
+#background div:nth-child(2) {
+    /* width: 150px; */
+    width: 25%;
+    height: 400px;
+    background: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 2px;
+}
+
+
+#background div:nth-child(3) {
+    /* width: 150px; */
+    width: 25%;
+    height: 400px;
+    background: white;
+    text-align: center;
+    border-radius: 0 15px 15px 0;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 2px
+}
+
+p {
+    font-family:  'Roboto Slab', serif;
+    border: black;
+    border-bottom: 1px;
+}
+
+
+
+
+hr {
+
+    height: 10px;
+    width: 1250px;
+    border: none;
+    background-image: linear-gradient(red,white);
+
+
+}
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    bottom: 0;
+    text-align: center;
+    color: white ;
+    background-image: linear-gradient(black, red);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+/*Xavier Section ended  */
+>>>>>>> 8bbe08c6c2556a27d7d1dccc5eabb1e54bf45578

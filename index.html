@@ -1,139 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MSIMBO Redesign Header</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/components.min.css" integrity="sha512-f6TS5CFJrH/EWmarcBwG54/kW9wwejYMcw+I7fRnGf33Vv4yCvy4BecCKTti3l8e8HnUiIbxx3V3CuUYGqR1uQ==" crossorigin="anonymous" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;700;800;900&family=Roboto+Slab:wght@100;800&display=swap" rel="stylesheet">
-    </head>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="contact.css">
+		<link href="bio.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css" integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w==" crossorigin="anonymous" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;700;800;900&family=Roboto+Slab:wght@100;800&display=swap" rel="stylesheet">
+		<title>MSIMBO Redesign v2 Code of Honors</title>
+	</head>
 
-    <body>
+	<body>
 
 <!--    Sauel Section-->
-        <nav>
-
-            <div class="image1">
-                <img src="img/cropped-constant-contact-title-bar-013114.jpg" height="100" width="350" alt>
-            </div>
-                    <ul class="menu">
-
-                        <p>
-                        <a href="#home">Home</a>
-                        </p>
-
-                        <p>
-                        <a href="#students">Students</a>
-                        </p>
-
-                        <p>
-                         <a href="#curriculum">Curriculum</a>
-                        </p>
-
-                        <p>
-                        <a href="#assignments">Assignments</a>
-                        </p>
-
-                        <p>
-                        <a href="#resources">Resources</a>
-                        </p>
-
-                        <p>
-                        <a href="#videos">Videos</a>
-                        </p>
-
-                        <p>
-                        <a href="#slack">Slack</a>
-                        </p>
-
-                        <p>
-                        <a href="#contact us">Contact Us</a>
-                        </p>
-
-                        <p>
-                        <a href="#store">Store</a>
-                        </p>
-
-                        <p>
-                        <a href="#login">Login</a>
-                        </p>
-
-                        <p>
-                        <a href="#register">Register</a>
-                        </p>
-
-                    </ul>
-
-            <div class="image2">
-                <img src="img/SaveTheChildren100.jpg" height="100" width="275" alt>
-            </div>
-
-        </nav>
+<header>
+	<a class="logo" href="/"><img src="img/ulembanner.png" height="500px" width="500px" alt="logo"></a>
+	<nav>
+		<ul class="nav__links">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Students</a></li>
+			<li><a href="#">Curriculum</a></li>
+			<li><a href="#">Assignments</a></li>
+			<li><a href="#">Resources</a></li>
+			<li><a href="#">Video</a></li>
+			<li><a href="#">Slack</a></li>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="#">Store</a></li>
+			<li><a href="#">Login</a></li>
+			<li><a href="#">Register</a></li>
+		</ul>
+	</nav>
+	<a class="cta" href="#">Menu</a>
+	<p class="menu cta">Menu</p>
+</header>
+<div class="overlay">
+	<a class="close">&times;</a>
+	<div class="overlay__content">
+		<a href="contact.html">MSIMBO Team</a>
+		<a href="bio.html">Management Team</a>
+	</div>
+</div>
+<script type="text/javascript" src="app.js"></script>
 <!--end of Sauel Section-->
 
 <!--        Ahmed section-->
-        <div class="main1">
-            <div class="main2">
-                <img class="msimbo_logo" src="img/logo.7d59b40d.png"
-                     alt="msimbo logo"/>
-            </div>
-            <!--  End of main2 -->
+		<div class="main1">
+			<div class="main2">
+				<img class="msimbo_logo" src="img/logo.7d59b40d.png"
+					 alt="msimbo logo"/>
+			</div>
+			<!--  End of main2 -->
 
-            <div>
-<!--                <div class="text1">MSIMBO</div>-->
-<!--                <div class="text1">Programming</div>-->
-<!--                <div class="text1">Welcome to ULEM</div>-->
-<!--                <div class="text1">Coding Bootcamp</div>-->
+			<div>
+				<div class="text1">MSIMBO</div>
+				<div class="text1">Programming</div>
+				<div class="text1">Welcome to ULEM</div>
+				<div class="text1">Coding Bootcamp</div>
+			</div>
 
-                <p class="text1">MSIMBO</p>
-                <p class="text1">Programming</p>
-                <p class="text1">Welcome to ULEM</p>
-                <p class="text1">Coding Bootcamp</p>
+			<div class="mt-20 flex justify-self-center">
+				<button class="bg-blue-500 p-5 border-2 rounded-full cursor-pointer">
+					<a href="contact.html">Contact Us</a>
+				</button>
+			</div>
 
-            </div>
-        </div>
+		</div>
+		<!-- End of main1 -->
 
-            <div>
-                <a href="contact.html">Contact Us</a>
-            </div>
-
-        <!-- End of main1 -->
-<!--    End os Ahmed Section-->
-
-<!-- Lashwanta Section start -->
-<!-- Six Icons -->
-
-    <div id="header">
-        <div class="item">
-            <p>Students</p>
-        </div>
-        <div class="item">
-            <p>Curricullum</p>
-        </div>
-        <div class="item">
-            <p>Videos</p>
-        </div>
-        <div class="item">
-            <p>Assignments</p>
-        </div>
-        <div class="item">
-            <p>Resources</p>
-        </div>
-        <div class="item">
-            <p>Assessments</p>
-        </div>
-    </div>
-
+<!-- Six Icons Section start -->
+<!--    <div id="header">-->
+<!--    <div id="six-icons" class="bg-blue-500">-->
+<!--&lt;!&ndash;&ndash;&gt;-->
+<!--        <div class="six-icons_class">-->
+<!--            <a class="six-icons_class" href="#">-->
+<!--                <img class="h-10" src="img/students_logo.png" alt="students logo">-->
+<!--                <h3>Students</h3>-->
+<!--            </a>-->
+<!--            <a class="six-icons_class" href="#">-->
+<!--                <h3>Curriculum</h3>-->
+<!--            </a>-->
+<!--            <a class="six-icons_class" href="#">-->
+<!--                <h3>Videos</h3>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <a class="six-icons_class" href="#">-->
+<!--                <h3>Assignments</h3>-->
+<!--            </a>-->
+<!--            <a class="six-icons_class" href="#">-->
+<!--                <h3>Resources</h3>-->
+<!--            </a>-->
+<!--            <a class="six-icons_class" href="#">-->
+<!--                <h3>Assessments</h3>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--    </div>-->
 <!--   End of Six Icons-->
-<!-- Lashawnta Section ended -->
+
+
+<!--    End of Ahmed Section-->
 
 
 <!-- Johane Section start -->
 
 
+<!-- Johane Section ended -->
+
+
+<!-- Xavier Section start -->
+
+
+<!-- Xavier Section ended -->
+		<div class="X-container">
+
+			<div id="background">
+				<div>
+					<p>"Im very happy I had the chance to successfully complete the MSIMBO coding program which is opening many carrer opportunities for me and will always be grateful to the Urban League."</p>
+					<img src="img\avatar1.JPG" alt="pascal" height="250px" width="400px">
+				</div>
+
+<<<<<<< HEAD
 <h2>About us</h2>
 <div class='about-us'>
 <div class='page'> -->
@@ -167,12 +156,27 @@
 
 
 <!-- Johane Section ended -->
+=======
+				<div>
+					<p>"I am happy to say that MSIMBO has opened the front door for me into the software development world."</p>
+					<img src="img/avatar3.JPG" alt="Hieu" height="250px" width="400px">
+				</div>
+>>>>>>> 8bbe08c6c2556a27d7d1dccc5eabb1e54bf45578
+
+				<div>
+					<p>
+						"Im very happy I had the chance to successfully complete the MSIMBO coding program which is opening many carrer opportunities for me and will always be grateful to the Urban League."</p>
+						<img src="img/avatar2.JPG" alt="Awet" height="400px" width="400px" >
+				</div>
+			</div>
 
 
-<!-- Xavier Section start -->
 
 
-<!-- Xavier Section ended -->
-
-    </body>
+			<hr />
+			<div class="footer">
+				<h4> Urban League of Eastern Massachusetts circa 2020</h4>
+			</div>
+		</div>
+	</body>
 </html>
