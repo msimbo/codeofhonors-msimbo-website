@@ -86,4 +86,16 @@ https://github.com/YOUR_GITHUB_ID/Project-3-v2
 
 3. Code of Honors team collaborators cloned repo to their directory
 
-4. Code of Honors team collaborators restarted their previous work 
+4. Code of Honors team collaborators restarted their previous work
+
+## Header/Nav/Menu & Bio Page
+### Sauel Almonte
+
+## Image Section Underneath Header & Team Contact Page
+### Ayad Ahmed
+
+## About Us Section
+### Johane Chery
+
+## Footer/
+### Xavier Parham
