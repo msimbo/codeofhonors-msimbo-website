@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ed963241-3224-45e7-9de7-a0f70ba4bd30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bio.css" beforeDir="false" afterPath="$PROJECT_DIR$/bio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,9 @@
       <workItem from="1607046876469" duration="23549000" />
       <workItem from="1607089507271" duration="642000" />
       <workItem from="1607091672672" duration="3653000" />
+      <workItem from="1607228849291" duration="51000" />
+      <workItem from="1607229092335" duration="388000" />
+      <workItem from="1607230820980" duration="83000" />
     </task>
     <servers />
   </component>
@@ -80,5 +82,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="129" y="225" width="1553" height="722" key="SettingsEditor" timestamp="1607229474359">
+      <screen x="0" y="23" width="1920" height="1053" />
+    </state>
+    <state x="129" y="225" width="1553" height="722" key="SettingsEditor/-1680.23.1680.1027/0.23.1920.1053@0.23.1920.1053" timestamp="1607229474359" />
   </component>
 </project>
