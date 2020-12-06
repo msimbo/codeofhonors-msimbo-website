@@ -40,7 +40,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,7 +64,8 @@
       <workItem from="1607091672672" duration="3653000" />
       <workItem from="1607228849291" duration="51000" />
       <workItem from="1607229092335" duration="388000" />
-      <workItem from="1607230820980" duration="83000" />
+      <workItem from="1607230820980" duration="2076000" />
+      <workItem from="1607233063741" duration="4000" />
     </task>
     <servers />
   </component>
@@ -82,11 +83,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="129" y="225" width="1553" height="722" key="SettingsEditor" timestamp="1607229474359">
-      <screen x="0" y="23" width="1920" height="1053" />
-    </state>
-    <state x="129" y="225" width="1553" height="722" key="SettingsEditor/-1680.23.1680.1027/0.23.1920.1053@0.23.1920.1053" timestamp="1607229474359" />
   </component>
 </project>
